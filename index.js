@@ -6,6 +6,7 @@ soap.createClient(url, (err, client) => {
     if(err){
         console.log(err)
     }else{
+        // client
         console.log('ok')
         client.consultaCEP({
             cep: '37552171'
